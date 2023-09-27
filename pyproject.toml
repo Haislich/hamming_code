@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hamming-code"
+version = "0.1.0"
+description = ""
+authors = ["Haislich <josedlv936@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.6"
+black = "^23.9.1"
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
